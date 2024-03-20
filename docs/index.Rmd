@@ -1,0 +1,379 @@
+---
+title: 'APRESENTAÇÃO DA DISCIPLINA </br> (TEMA 01)'
+subtitle: 'IEPG20 - Introdução à Economia'
+author: 'Autor: Victor Valerio'
+date: 'Última atualização: `r format(Sys.Date(),"%d-%m-%Y")`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# PACOTES UTILIZADOS: ----
+library(xaringanthemer)
+library(xaringanExtra)
+
+# CONFIGURAÇÃO DA FONTE: ----
+style_mono_light(base_color = '#1c5253',
+                  text_font_size = '30px',
+                  header_h1_font_size = '3rem',
+                  header_h2_font_size = '2rem',
+                  header_h3_font_size = '1.5rem')
+
+# CONFIGURAÇÃO PADRÃO CHUNK: ----
+knitr::opts_chunk$set(echo = F,
+                      results = 'asis', 
+                      warning = F, 
+                      message = F, 
+                      error = F, 
+                      fig.align = 'center', 
+                      out.width = '100%')
+
+# RECURSOS DO SLIDE: ----
+use_scribble()
+use_search(show_icon = TRUE)
+```
+
+class: inverse, center, middle
+
+# COMEÇOU A DISCIPLINA DE ECONOMIA
+```{r, echo = F, fig.align = 'center', out.width = '50%', fig.alt= 'Gif do homer simpson em frente ao computador procurando uma tecla. Há uma legenda com a mensagem: to start press any key. Where is the any key?'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif')
+```
+
+---
+## TÓPICOS ABORDADOS
+
+- [**QUEM SÃO OS PARTICIPANTES?**](#sobre_participantes)
+
+- [**QUAL O OBJETIVO DA DISCIPLINA?**](#objetivo_disciplina)
+
+- [**COMO AS AULAS SERÃO ORGANIZADAS?**](#organizacao_aulas)
+
+- [**COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?**](#atendimentos)
+
+- [**QUAL O CRONOGRAMA DA DISCIPLINA?**](#cronograma)
+
+---
+class: inverse, center, middle 
+name: sobre_participantes
+## QUEM SÃO OS PARTICIPANTES?
+
+```{r, echo = F, fig.align = 'center', out.width = '50%', fig.alt= 'gif com uma reunião de vizinhos da família do homer'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/26gBjgcJMUqShHs4w/giphy.gif')
+```
+
+---
+<div style="text-align: justify">
+## PRINCIPAIS INFORMAÇÕES
+
+- **NOME:** *Victor Valerio*;
+- **E-MAIL:** *victor.dmv@unifei.edu.br*;
+- **TEL:** *+55 (35) 3629-1151*
+- **SALA:** *B.3216 (1º Piso IEPG);*
+
+---
+<div style="text-align: justify">
+## FORMAÇÃO
+
+- **GRADUAÇÃO**: Ciências Econômicas (UNESP);
+
+- **MESTRADO**: Engenharia de Produção (UNIFEI)
+
+- **DOUTORADO**: Engenharia de Produção (UNIFEI)
+
+---
+<div style="text-align: justify">
+## ÁREAS DE ATUAÇÃO
+
+- **DOCÊNCIA**: Economia (IEPG20), Engenharia Econômica (EPR502), 	
+Macroeconomia (ADM022), Análise 	de 	Investimento com Risco (ADM013), 
+Metodologia Quantitativa em Administração (MPA033);
+
+- **PESQUISA**: Modelos de Análise de Eficiência e Produtividade, Análise de 
+Viabilidade Econômica, Energia 	Renovável, Ciência de Dados;
+
+- **INSTITUCIONAL**: Representante do Estado de Minas Gerais na Ordem dos Economistas do 
+Brasil (OEB); Coordenador do Núcleo de Excelência em 	Sistemas Fotovoltaicos 
+(NE-SFV); Pesquisador Assistente no Centro de 	Hidrogênio Verde (CHV2); 
+Coordenador de Graduação de Curso (Administração-UNIFEI).
+
+---
+class: inverse, center, middle  
+## PAI DE PET
+
+```{r, echo = F, fig.align = 'center', out.width = '30%', fig.alt= 'foto minha com a minha noiva e as minhas duas cahorras de estimação, elas são vira-latas pretas. Há uma mensagem: pai de pet'}
+knitr::include_graphics('familia.jpeg')
+```
+
+---
+class: inverse, center, middle 
+## MAIOR DO PAÍS
+
+```{r, echo = F, fig.align = 'center', out.width = '40%', fig.alt='gif do porco (mascote do palmeiras) vestindo a camiseta do palmeiras. Há uma legenda dizendo que este time é o maior do país'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/ZeA9GkdqTLLm6I2Hab/giphy.gif')
+```
+
+---
+class: inverse, center, middle 
+## CAMPEÃO DA LIGA SULMINEIRA DE SURF
+
+```{r, echo = F, fig.align = 'center', out.width = '40%', fig.alt= 'gif com um rapaz surfando em uma piscina com ondas artificiais. há uma legenda afirmando que eu sou campeão da liga sulmineira de surf'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/BM7rEaVmOUVIG2yxbj/giphy.gif')
+```
+
+---
+<div style="text-align: justify">
+## PERGUNTAS PARA OS ESTUDANTES
+
+- Qual o seu nome?
+- Você se matricularia se não fosse obrigatória?
+- Qual seu hobby? (esporte, filmes/séries, dormir, dançar, fofocar...)
+- Qual seu signo?
+- Conte uma curiosidade sobre você.
+- Conte uma mentira sobre você.
+
+---
+class: inverse, center, middle 
+name: objetivo_disciplina
+## QUAL O OBJETIVO DA DISCIPLINA?
+
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/xT5LMsv6xxHIxliEOA/giphy.gif')
+```
+
+---
+<div style="text-align: justify">
+## QUAL O OBJETIVO DA DISCIPLINA?
+
+- **Objetivo Geral:** O principal objetivo do curso é aproximar o estudante dos 
+  diversos temas da economia e de suas respectivas áreas de	atuação prática.
+
+
+</br>
+
+- **Objetivo específico:** Sempre que possível, as **associações práticas** possíveis 
+para o nível de aprofundamento alcançado serão discutidas.
+
+---
+class: inverse, center, middle
+name: organizacao_aulas
+
+# COMO AS AULAS SERÃO ORGANIZADAS?
+
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/fBEDuhnVCiP16/giphy.gif')
+```
+
+---
+<div style="text-align: justify">
+## COMO AS AULAS SERÃO ORGANIZADAS?
+
+- As aulas serão **estritamente expositivas** e **presenciais**;
+
+- Assim, a dinâmica ocorrerá da seguinte maneira:
+
+    - 10 minutos iniciais: Momento para tirar dúvidas e também para aguardar a 
+    acomodação dos estudantes;
+
+    - Realização da “chamada”;
+
+    - Início das exposições teóricas (início da aula).
+
+---
+<div style="text-align: justify">
+## COMO AS AULAS SERÃO ORGANIZADAS?
+
+- Em cada semana de aula será disponibilizado no SIGAA:
+
+  - **Objetivo da aula**;
+
+  - **Breve exposição sobre os principais conceitos trabalhados na aula**;
+
+  - **Slide da aula (o mesmo utilizado na reunião)**.
+
+---
+class: inverse, center, middle
+name: atendimentos
+# COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif da série the office para apresentar a organização dos atendimentos ', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/vEJGsXtEE1Sc8/giphy-downsized-large.gif')
+```
+
+---
+<div style="text-align: justify">
+## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
+
+- **ATENDIMENTO EM SALA**: 
+
+    - Como visto, no início de cada aula/semana dedicaremos um tempo para 
+    discussão de potenciais dúvidas teóricas ou mesmo de exercícios.
+
+
+- **ATENDIMENTO PREVIAMENTE AGENDADO**:
+
+    - Para atendimento pessoal basta utilizar o seguinte link: 
+    
+    - [**https://profvictorunifei.shinyapps.io/agenda**](https://profvictorunifei.shinyapps.io/agenda)
+    
+    - O agendamento deverá ocorrer com 4 dias de antecedência, não é necessário solicitar e não é necessário avisar.
+
+---
+<div style="text-align: justify">
+## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
+
+- Há ainda mais um instrumento de interação, criei um grupo no whatsapp (acho o mais dinâmico de todos). 
+Por favor, ingresse no grupo! Basta clicar neste 
+[**link**](https://chat.whatsapp.com/JDiTsGrkwbdLg4NrGFtqIv)! Obviamente, sua entrada é facultativa!
+
+
+```{r, echo = F, fig.align = 'center', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/l2JebaQTHOUAIarQc/giphy.gif')
+```
+
+---
+<div style="text-align: justify">
+## COMO OS ATENDIMENTOS SERÃO ORGANIZADOS?
+
+```{r, echo = F, fig.align = 'center', out.width = '50%', fig.alt= 'gif com uma reunião de vizinhos da família do homer'}
+knitr::include_graphics(
+  'whatsapp.jpg')
+```
+]
+
+
+---
+class: inverse, center, middle
+name: cronograma
+# QUAL O CRONOGRAMA DA DISCIPLINA?
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif da série the office para apresentar a organização dos atendimentos ', out.width = '50%'}
+knitr::include_graphics(
+  'https://media.giphy.com/media/l2JdZgzUpaNi2oxcQ/giphy.gif')
+```
+
+---
+## QUAIS OS CONTEÚDOS?
+
+
+- FRENTES DE CONHECIMENTO DA DISCIPLINA:
+	
+	- ÁREA 1: Microeconomia;
+	- ÁREA 2: Macroeconomia.
+
+
+- OBSERVAÇÃO: 
+
+  - A rigor, cada uma destas frentes de trabalho contemplam uma determinada área de 
+  atuação profissional do economista e, por se tratar de uma disciplina 
+  introdutória, todas estas áreas de atuação serão abordadas na disciplina. 
+
+---
+## QUAIS OS CONTEÚDOS?
+```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
+library(magrittr)
+library(kableExtra)
+
+cronograma <- data.frame(
+  SEMANA = c(1, 2, 3, 4, 5, 6, 7),
+  DATA = c(format(Sys.Date(),"%d-%m-%Y"),
+           format(Sys.Date()+(7*1),"%d-%m-%Y"),
+           format(Sys.Date()+(7*2),"%d-%m-%Y"),
+           format(Sys.Date()+(7*3),"%d-%m-%Y"),
+           format(Sys.Date()+(7*4),"%d-%m-%Y"),
+           format(Sys.Date()+(7*5),"%d-%m-%Y"),
+           format(Sys.Date()+(7*7),"%d-%m-%Y")),
+  ÁREA = c('------', 
+           'Macroeconomia', 'Macroeconomia',
+           'Macroeconomia','Macroeconomia',
+           'Macroeconomia','Macroeconomia'),
+  TEMAS = c('Apresentação da Disciplina',
+           'Taxa de Inflação', 
+           'Taxa de Câmbio',
+           'Taxa de Juros',
+           'Identidades Macroeconômicas',
+           'Nível de Atividade', 
+           'Prova 01'))
+
+knitr::kable(cronograma, 
+             escape = FALSE,
+             format = 'html',
+             align = c('c', 'c', 'c')) %>%
+  
+  kable_styling(bootstrap_options = 'striped')
+
+```
+
+---
+## QUAIS OS CONTEÚDOS?
+```{r , results = 'asis', echo = F, warning = F, message = F, error = F, fig.align ='center', out.width = '100%'}
+library(magrittr)
+library(kableExtra)
+
+cronograma <- data.frame(
+  SEMANA = c(8, 9, 10, 11, 12, 13, 14, 15),
+  DATA = c(format(Sys.Date()+(7*8),"%d-%m-%Y"),
+           format(Sys.Date()+(7*9),"%d-%m-%Y"),
+           format(Sys.Date()+(7*10),"%d-%m-%Y"),
+           format(Sys.Date()+(7*12),"%d-%m-%Y"),
+           format(Sys.Date()+(7*13),"%d-%m-%Y"),
+           format(Sys.Date()+(7*14),"%d-%m-%Y"),
+           format(Sys.Date()+(7*15),"%d-%m-%Y"),
+           format(Sys.Date()+(7*16),"%d-%m-%Y")),
+  ÁREA = c('Microeconomia', 'Microeconomia',
+           'Microeconomia', 'Microeconomia',
+           'Microeconomia','Microeconomia',
+           'Microeconomia','Microeconomia'),
+  TEMAS = c('Preferências do Consumidor',
+            'Funções Utilidade', 
+            'Escolha Ótima', 
+            'Otimização da Produção - CP',
+            'Equilíbrio de Mercado', 
+            'Estática Comparativa',
+            'Prova 02', 
+            'Prova Substitutiva'))
+
+knitr::kable(cronograma, 
+             escape = FALSE,
+             format = 'html',
+             align = c('c', 'c', 'c')) %>%
+  
+  kable_styling(bootstrap_options = 'striped')
+
+```
+
+---
+## COMPOSIÇÃO DAS NOTAS
+
+- Equação Nota 1: $Nota_1  = 0,8.Prova_{parte 1} + 0,2.Questionários_{parte 1}$
+
+- Equação Nota 2: $Nota_2  = 0,8 .Prova_{parte 2} + 0,2.Questionários_{parte 2}$
+
+- Equação Nota Final: $Nota_{Final}  = (Nota_1 + Nota_2)/2$
+
+---
+class: inverse, center, middle
+
+# MUITO OBRIGADO!
+
+```{r, echo = F, fig.align = 'center', fig.alt= 'Gif para agradecer pela atenção e o tema é da série the office', out.width = '50%'}
+
+knitr::include_graphics(
+  'https://media.giphy.com/media/3orifgJJHKP0WZxmzC/giphy.gif')
+
+```
