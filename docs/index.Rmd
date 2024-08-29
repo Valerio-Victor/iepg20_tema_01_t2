@@ -76,7 +76,7 @@ knitr::include_graphics(
 ## PRINCIPAIS INFORMAÇÕES
 
 - **NOME:** *Victor Valerio*;
-- **E-MAIL:** *victor.dmv@unifei.edu.br*;
+- **E-MAIL:** *NUNCA!*;
 - **TEL:** *+55 (35) 3629-1151*
 - **SALA:** *B.3216 (1º Piso IEPG);*
 
@@ -94,7 +94,7 @@ knitr::include_graphics(
 <div style="text-align: justify">
 ## ÁREAS DE ATUAÇÃO
 
-- **DOCÊNCIA**: Economia (IEPG20), Engenharia Econômica (EPR502), 	
+- **DOCÊNCIA**: Economia (IEPG20), Engenharia Econômica (IEPG10), 	
 Macroeconomia (ADM022), Análise 	de 	Investimento com Risco (ADM013), 
 Metodologia Quantitativa em Administração (MPA033);
 
@@ -104,7 +104,7 @@ Viabilidade Econômica, Energia 	Renovável, Ciência de Dados;
 - **INSTITUCIONAL**: Representante do Estado de Minas Gerais na Ordem dos Economistas do 
 Brasil (OEB); Coordenador do Núcleo de Excelência em 	Sistemas Fotovoltaicos 
 (NE-SFV); Pesquisador Assistente no Centro de 	Hidrogênio Verde (CHV2); 
-Coordenador de Graduação de Curso (Administração-UNIFEI).
+Consultor de Distribuidoras de Energia.
 
 ---
 class: inverse, center, middle  
@@ -137,11 +137,9 @@ knitr::include_graphics(
 ## PERGUNTAS PARA OS ESTUDANTES
 
 - Qual o seu nome?
-- Você se matricularia se não fosse obrigatória?
 - Qual seu hobby? (esporte, filmes/séries, dormir, dançar, fofocar...)
 - Qual seu signo?
 - Conte uma curiosidade sobre você.
-- Conte uma mentira sobre você.
 
 ---
 class: inverse, center, middle 
@@ -191,6 +189,14 @@ knitr::include_graphics(
     - Realização da “chamada”;
 
     - Início das exposições teóricas (início da aula).
+    
+---
+<div style="text-align: justify">
+## COMO AS AULAS SERÃO ORGANIZADAS?
+
+- Nossas aulas presenciais serão iniciadas às 7:30h;
+
+- Este procedimento será adotado pois, como será discutido no tópico "avaliações", vocês realização atividades em todas as semanas (completando a carga horária do curso).
 
 ---
 <div style="text-align: justify">
@@ -297,7 +303,7 @@ cronograma <- data.frame(
            format(Sys.Date()+(7*3),"%d-%m-%Y"),
            format(Sys.Date()+(7*4),"%d-%m-%Y"),
            format(Sys.Date()+(7*5),"%d-%m-%Y"),
-           format(Sys.Date()+(7*7),"%d-%m-%Y")),
+           format(Sys.Date()+(7*6),"%d-%m-%Y")),
   ÁREA = c('------', 
            'Macroeconomia', 'Macroeconomia',
            'Macroeconomia','Macroeconomia',
@@ -327,18 +333,18 @@ library(kableExtra)
 
 cronograma <- data.frame(
   SEMANA = c(8, 9, 10, 11, 12, 13, 14, 15),
-  DATA = c(format(Sys.Date()+(7*8),"%d-%m-%Y"),
+  DATA = c(format(Sys.Date()+(7*7),"%d-%m-%Y"),
+           format(Sys.Date()+(7*8),"%d-%m-%Y"),
            format(Sys.Date()+(7*9),"%d-%m-%Y"),
            format(Sys.Date()+(7*10),"%d-%m-%Y"),
+           format(Sys.Date()+(7*11),"%d-%m-%Y"),
            format(Sys.Date()+(7*12),"%d-%m-%Y"),
            format(Sys.Date()+(7*13),"%d-%m-%Y"),
-           format(Sys.Date()+(7*14),"%d-%m-%Y"),
-           format(Sys.Date()+(7*15),"%d-%m-%Y"),
-           format(Sys.Date()+(7*16),"%d-%m-%Y")),
+           format(Sys.Date()+(7*14),"%d-%m-%Y")),
   ÁREA = c('Microeconomia', 'Microeconomia',
            'Microeconomia', 'Microeconomia',
            'Microeconomia','Microeconomia',
-           'Microeconomia','Microeconomia'),
+           'Microeconomia','Todas'),
   TEMAS = c('Preferências do Consumidor',
             'Funções Utilidade', 
             'Escolha Ótima', 
